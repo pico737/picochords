@@ -1,0 +1,44 @@
+body {
+	font-family: sans-serif;
+	background-color: #eeeeee;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+.chordKey {
+	float: left;
+}
+
+.chord {
+	width: 60px;
+	height: 60px;
+	background-color: #00BCD4;
+	color: #ffffff;
+	text-align: center;
+	line-height: 60px;
+	margin-top: 1px;
+	margin-left: 1px;
+	font-size: 11pt;
+}
+
+.chord:hover {
+	background-color: #B2EBF2;
+	cursor: pointer;
+}
+
+#header {
+	font-size: 14px;
+	font-weight: bold;
+	color: #00838F;
+	padding-bottom: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
